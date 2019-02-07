@@ -1,0 +1,37 @@
+body {
+	background: url('../img/front.jpg');
+	background-size: cover;
+}
+
+h1 {
+	font-family: Arial, serif;
+	font-style: oblique;
+	font-size: 40px;
+}
+
+.block {
+	height: 500px;
+}
+.block-a {
+	width: 400px;
+	display: inline-block;
+}
+
+.block-b{
+	display: inline-block;
+	height: 360px;
+	width: 512px;
+	margin-left: 860px;
+}
+.block-a, .block-b{
+	background: #176e7f;
+	border: 20px solid;
+	border-color: #002a32;
+	border-radius: 10px;
+	padding: 5px; 
+
+}
+
+p {
+	color: #00ff08;
+}
