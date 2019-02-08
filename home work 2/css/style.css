@@ -9,19 +9,18 @@ h1 {
 	font-size: 40px;
 }
 
-.block {
-	height: 500px;
-}
 .block-a {
 	width: 400px;
-	display: inline-block;
+	height: 250px;
 }
 
 .block-b{
 	display: inline-block;
 	height: 360px;
 	width: 512px;
-	margin-left: 860px;
+	margin-left: 1260px;
+	margin-bottom: 60px;
+
 }
 .block-a, .block-b{
 	background: #176e7f;
