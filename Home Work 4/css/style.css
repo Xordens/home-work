@@ -1,0 +1,128 @@
+body,
+html{
+	margin: 0;
+	padding: 0;
+	background-color: #d3dcdc;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+ul,
+ol{
+	list-style-type: none;
+}
+
+.navigation-buttons{
+	padding-right: 60px;
+	padding-bottom: 10px;
+	font-family: 'Staatliches', cursive;
+}
+
+.header{
+	overflow: hidden;
+	height: 100px;
+	padding-top: 50px;
+
+}
+
+.three-strips {
+    padding: 16px 25px 0;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    position: absolute;
+	
+}
+
+.strip{
+	height: 6px;
+	width: 25px;
+	border-bottom: 1px solid black;
+}
+
+.navigation {
+	float: left;
+	padding-left: 100px;
+	padding-bottom: 10px; 
+}
+
+.navigation-list li{
+	display: inline-block;
+}
+.headline{
+	position: absolute;
+	left: 44%;
+}
+
+.search{
+	float: right;
+	padding-top: 20px;
+}						 /* End headar */
+
+.but-item{
+	padding-top: 100px;
+}
+
+.butt{
+	padding-top: 15px;
+}
+
+.line{
+	height: 60px;
+    margin-top: 31%;
+    margin-right: 30%;
+    padding-top: 0px;
+	padding-left: 35px;
+	padding-right: 40px;
+	display: inline-block;
+}
+
+.item {
+	display: inline-flex;
+}
+
+
+.text-der {
+	font-size: 100px;
+	display: inline-block;
+	margin: 0;
+}
+
+.white-fon{
+	background-color: white;
+	width: 100%
+}
+
+.hed {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 30px;
+}
+
+.parent-foto{
+	width: 1170px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.foto, .foto-col {
+	width: 24%;
+	height: 150px;
+	display: inline-flex;
+	padding: 0;
+	margin: -4px -2px -2px;
+}
+
+.foto {
+	background-color: #e2e8e8;
+}
+
+.foto-col{
+	background-color: #d3dcdc;
+}
+
+.parent-foto li:hover {
+	background-color: #bad6d6;
+}
